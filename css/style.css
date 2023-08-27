@@ -1711,6 +1711,10 @@ textarea.input {
     gap: 1.875rem;
   }
 
+  .main-slider__bg {
+    opacity: 0.5;
+  }
+
   .about__image-ibg {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
@@ -1859,6 +1863,10 @@ textarea.input {
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
+  }
+
+  .main-slider__bg {
+    opacity: 0.3;
   }
 
   .main-slider__content {
