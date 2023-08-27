@@ -680,28 +680,7 @@ textarea.input {
 }
 
 .slider-main__comtrols {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 2.5rem;
-}
-
-.controls-slider-main__arrows {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-}
-
-.controls-slider-main__arrows span {
-  position: absolute;
-  height: 2.5rem;
-  width: 0.125rem;
-  background-color: #fff;
-  margin-left: 12.9375rem;
+  display: none;
 }
 
 .reputation__title {
@@ -1392,6 +1371,33 @@ textarea.input {
   display: none !important;
 }
 
+@media (min-width: 47.99875em) {
+  .slider-main__comtrols {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 2.5rem;
+  }
+
+  .controls-slider-main__arrows {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+
+  .controls-slider-main__arrows span {
+    position: absolute;
+    height: 2.5rem;
+    width: 0.125rem;
+    background-color: #fff;
+    margin-left: 12.9375rem;
+  }
+}
+
 @media (min-width: 61.99875em) {
   .experience__items {
     position: relative;
@@ -1743,6 +1749,10 @@ textarea.input {
   .project .controls-project__item_arrow {
     display: none;
   }
+
+  .item-projects__image-ibg {
+    padding-bottom: 39.0625%;
+  }
 }
 
 @media (max-width: 61.99875em) and (max-width: 20em) {
@@ -1857,10 +1867,6 @@ textarea.input {
 
   .content-main-slider__text {
     font-size: 1.25rem;
-  }
-
-  .controls-slider-main__arrows span {
-    margin-left: 9.3125rem;
   }
 
   .reputation__cards {
@@ -2320,6 +2326,12 @@ textarea.input {
       padding-bottom: calc(1.875rem + 1.875 * (100vw - 20rem) / 71.875);
     }
 }
+}
+
+@media (min-width: 47.99875em) and (max-width: 47.99875em) {
+  .controls-slider-main__arrows span {
+    margin-left: 9.3125rem;
+  }
 }
 
 @media (max-width: 61.99875em) and (min-width: 91.875em) {
