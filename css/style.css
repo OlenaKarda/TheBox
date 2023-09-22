@@ -517,6 +517,11 @@ textarea.input {
   font-weight: 600;
 }
 
+.menu__link._navigator-active {
+  color: #F9995D;
+  font-weight: 600;
+}
+
 .icon-menu {
   display: none;
 }
